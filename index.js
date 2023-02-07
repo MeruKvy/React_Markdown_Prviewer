@@ -1,5 +1,3 @@
-import * as bootstrap from "https://cdn.skypack.dev/bootstrap@5.2.3";
-
 const defaultinput = `# Welcome to my React Markdown Previewer!
 
 ## This is a sub-heading...
@@ -71,7 +69,6 @@ class App extends React.Component{
   
  
    return (
-    
      <div><h1 className="text-center mt-5 heading">Please, don't be shy to play around~</h1>
        <div className="row"> 
          <div className="col-6">
@@ -93,6 +90,5 @@ class App extends React.Component{
   
 }
 
-ReactDOM.render(<App/>, document.getElementById('app'))
-
+ReactDOM.render(<App/>, document.getElementById('root'))
 
